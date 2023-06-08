@@ -248,7 +248,7 @@ select {
   background-color: rgba(97, 56, 136, 0.488);
   border-radius: 10px;
   margin-top: 18px;
-  letter-spacing: 0px;
+  /* letter-spacing: 0px; */
 }
 
 #timeText {
@@ -330,14 +330,7 @@ select {
   }
 }
 
-@media screen and (max-width: 507px) {
-  .guide {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-    height: 150px;
-  }
-}
+
 
 .none {
   color: #f06af9;
@@ -353,10 +346,6 @@ select {
 
 #changeImage {
   width: 100%;
-}
-
-.set {
-  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 269px) {
