@@ -97,14 +97,14 @@ function showChanges() {
   let hour = Time.getHours();
 
   
-  if (hour > 5 && hour < 11) {
+  if (hour > 5 && hour < 12) {
     image = "./img/Component.png";
   }
   
-  else if (hour > 10 && hour < 15) {
+  else if (hour > 11 && hour < 15) {
    
     greetText.innerHTML = `LET'S HAVE SOME LUNCH !!`;
-  } else if (hour > 14 && hour < 19) {
+  } else if (hour > 14 && hour < 20) {
    
     greetText.innerHTML = `STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!`;
   }
